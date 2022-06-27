@@ -1,0 +1,4 @@
+/Users/dimashestakov/Desktop/Parser/cmake-build-debug/CMakeFiles/Parser.dir
+/Users/dimashestakov/Desktop/Parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dimashestakov/Desktop/Parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dimashestakov/Desktop/Parser/cmake-build-debug/CMakeFiles/Parser_internals.dir
