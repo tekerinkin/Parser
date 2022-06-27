@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -53,10 +53,10 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				2,
-				4,
-				7
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -71,23 +71,23 @@
 	"sourceGroups" : 
 	[
 		{
-			"name" : "Source Files",
-			"sourceIndexes" : 
-			[
-				0,
-				2,
-				4,
-				7
-			]
-		},
-		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
+				0,
 				1,
+				2,
 				3,
+				4
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
 				5,
 				6,
+				7,
 				8
 			]
 		}
@@ -96,51 +96,51 @@
 	[
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Tokenizer.cpp",
+			"path" : "include/Tokenizer.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Tokenizer.hpp",
+			"path" : "include/Parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/FunctionDefinition.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Type.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Statement.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Tokenizer.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Parser.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Parser.h",
+			"path" : "src/Parser.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "FunctionDefinition.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "FunctionDefinition.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Type.h",
+			"path" : "src/FunctionDefinition.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Statement.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Statement.h",
+			"path" : "src/Statement.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

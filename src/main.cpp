@@ -1,5 +1,5 @@
-#include "Tokenizer.hpp"
-#include "Parser.h"
+#include "../include/Tokenizer.hpp"
+#include "../include/Parser.h"
 #include <iostream>
 
 int main() {

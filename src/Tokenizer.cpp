@@ -2,7 +2,7 @@
 // Created by Дима Шестаков on 25.06.2022.
 //
 
-#include "Tokenizer.hpp"
+#include "../include/Tokenizer.hpp"
 #include <stdexcept>
 #include <iostream>
 

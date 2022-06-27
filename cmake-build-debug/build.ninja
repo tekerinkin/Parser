@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/dimashestakov/Desktop/Parser/cmake-build-debug/
 
 build cmake_object_order_depends_target_Parser: phony || cmake_object_order_depends_target_Parser_internals
 
-build CMakeFiles/Parser.dir/main.cpp.o: CXX_COMPILER__Parser_Debug /Users/dimashestakov/Desktop/Parser/main.cpp || cmake_object_order_depends_target_Parser
-  DEP_FILE = CMakeFiles/Parser.dir/main.cpp.o.d
+build CMakeFiles/Parser.dir/src/main.cpp.o: CXX_COMPILER__Parser_Debug /Users/dimashestakov/Desktop/Parser/src/main.cpp || cmake_object_order_depends_target_Parser
+  DEP_FILE = CMakeFiles/Parser.dir/src/main.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/Parser.dir
-  OBJECT_FILE_DIR = CMakeFiles/Parser.dir
+  OBJECT_FILE_DIR = CMakeFiles/Parser.dir/src
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/Parser.dir/main.cpp.o: CXX_COMPILER__Parser_Debug /Users/dimash
 #############################################
 # Link the executable Parser
 
-build Parser: CXX_EXECUTABLE_LINKER__Parser_Debug CMakeFiles/Parser.dir/main.cpp.o | libParser_internals.a || libParser_internals.a
+build Parser: CXX_EXECUTABLE_LINKER__Parser_Debug CMakeFiles/Parser.dir/src/main.cpp.o | libParser_internals.a || libParser_internals.a
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
   LINK_LIBRARIES = libParser_internals.a
   OBJECT_DIR = CMakeFiles/Parser.dir
@@ -104,29 +104,29 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Parser_internals: phony || CMakeFiles/Parser_internals.dir
 
-build CMakeFiles/Parser_internals.dir/Tokenizer.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/Tokenizer.cpp || cmake_object_order_depends_target_Parser_internals
-  DEP_FILE = CMakeFiles/Parser_internals.dir/Tokenizer.cpp.o.d
+build CMakeFiles/Parser_internals.dir/src/Tokenizer.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/src/Tokenizer.cpp || cmake_object_order_depends_target_Parser_internals
+  DEP_FILE = CMakeFiles/Parser_internals.dir/src/Tokenizer.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/Parser_internals.dir
-  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir/src
 
-build CMakeFiles/Parser_internals.dir/Parser.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/Parser.cpp || cmake_object_order_depends_target_Parser_internals
-  DEP_FILE = CMakeFiles/Parser_internals.dir/Parser.cpp.o.d
+build CMakeFiles/Parser_internals.dir/src/Parser.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/src/Parser.cpp || cmake_object_order_depends_target_Parser_internals
+  DEP_FILE = CMakeFiles/Parser_internals.dir/src/Parser.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/Parser_internals.dir
-  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir/src
 
-build CMakeFiles/Parser_internals.dir/FunctionDefinition.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/FunctionDefinition.cpp || cmake_object_order_depends_target_Parser_internals
-  DEP_FILE = CMakeFiles/Parser_internals.dir/FunctionDefinition.cpp.o.d
+build CMakeFiles/Parser_internals.dir/src/FunctionDefinition.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/src/FunctionDefinition.cpp || cmake_object_order_depends_target_Parser_internals
+  DEP_FILE = CMakeFiles/Parser_internals.dir/src/FunctionDefinition.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/Parser_internals.dir
-  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir/src
 
-build CMakeFiles/Parser_internals.dir/Statement.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/Statement.cpp || cmake_object_order_depends_target_Parser_internals
-  DEP_FILE = CMakeFiles/Parser_internals.dir/Statement.cpp.o.d
+build CMakeFiles/Parser_internals.dir/src/Statement.cpp.o: CXX_COMPILER__Parser_internals_Debug /Users/dimashestakov/Desktop/Parser/src/Statement.cpp || cmake_object_order_depends_target_Parser_internals
+  DEP_FILE = CMakeFiles/Parser_internals.dir/src/Statement.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/Parser_internals.dir
-  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Parser_internals.dir/src
 
 
 # =============================================================================
@@ -136,7 +136,7 @@ build CMakeFiles/Parser_internals.dir/Statement.cpp.o: CXX_COMPILER__Parser_inte
 #############################################
 # Link the static library libParser_internals.a
 
-build libParser_internals.a: CXX_STATIC_LIBRARY_LINKER__Parser_internals_Debug CMakeFiles/Parser_internals.dir/Tokenizer.cpp.o CMakeFiles/Parser_internals.dir/Parser.cpp.o CMakeFiles/Parser_internals.dir/FunctionDefinition.cpp.o CMakeFiles/Parser_internals.dir/Statement.cpp.o
+build libParser_internals.a: CXX_STATIC_LIBRARY_LINKER__Parser_internals_Debug CMakeFiles/Parser_internals.dir/src/Tokenizer.cpp.o CMakeFiles/Parser_internals.dir/src/Parser.cpp.o CMakeFiles/Parser_internals.dir/src/FunctionDefinition.cpp.o CMakeFiles/Parser_internals.dir/src/Statement.cpp.o
   ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/Parser_internals.dir
